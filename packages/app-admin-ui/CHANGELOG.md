@@ -1,5 +1,30 @@
 # @keystonejs/app-admin-ui
 
+## 5.12.0
+
+### Minor Changes
+
+- [`95babf5d`](https://github.com/keystonejs/keystone/commit/95babf5da8488f2d7f8ab9f91ff640576462af6d) [#2798](https://github.com/keystonejs/keystone/pull/2798) Thanks [@Vultraz](https://github.com/Vultraz)! - Revamped sidebar design.
+
+### Patch Changes
+
+- [`ab484f19`](https://github.com/keystonejs/keystone/commit/ab484f195752bb3ec59f6beb7d8817dce610ad06) [#2440](https://github.com/keystonejs/keystone/pull/2440) Thanks [@gautamsi](https://github.com/gautamsi)! - Enabled selection of multiple options in Filter for Select type fields. This also disables use of filter with empty values, you can not apply new filter if none of the options are selected. Can not deselect last filter item when adding or editing.
+
+* [`1b059e72`](https://github.com/keystonejs/keystone/commit/1b059e726d95bbc6ad09a76ed3b40dbc4cf11682) [#2810](https://github.com/keystonejs/keystone/pull/2810) Thanks [@Vultraz](https://github.com/Vultraz)! - Clarified functionality of item view 'Back' button.
+
+- [`b0bfcf79`](https://github.com/keystonejs/keystone/commit/b0bfcf79477249f3c0bb14db68588d84a68f0186) [#2812](https://github.com/keystonejs/keystone/pull/2812) Thanks [@Vultraz](https://github.com/Vultraz)! - Don't duplicate HeaderInset multiple times.
+
+* [`8a135a88`](https://github.com/keystonejs/keystone/commit/8a135a88ae6f3a4434db0ba7033cad2e5f18651e) [#2808](https://github.com/keystonejs/keystone/pull/2808) Thanks [@Vultraz](https://github.com/Vultraz)! - Fixed list-level `adminDoc` not doing anything.
+
+- [`63a2f7c3`](https://github.com/keystonejs/keystone/commit/63a2f7c31777d968bad32d6e746e2f960c6ef0ad) [#2816](https://github.com/keystonejs/keystone/pull/2816) Thanks [@Vultraz](https://github.com/Vultraz)! - Fixed Success toast showing stale data when changing an item's name.
+
+- Updated dependencies [[`95babf5d`](https://github.com/keystonejs/keystone/commit/95babf5da8488f2d7f8ab9f91ff640576462af6d), [`45b151b0`](https://github.com/keystonejs/keystone/commit/45b151b05de0583ba50364caeda8b5bb7a111385), [`b897ba14`](https://github.com/keystonejs/keystone/commit/b897ba14e34aa441b2d658c30b3dda9d1ebd48e2), [`4e56eed6`](https://github.com/keystonejs/keystone/commit/4e56eed68c643fd436c371e2635d3024c51968b0)]:
+  - @arch-ui/navbar@0.1.10
+  - @arch-ui/badge@0.0.16
+  - @arch-ui/confirm@0.0.19
+  - @arch-ui/dialog@0.0.21
+  - @keystonejs/fields@9.0.5
+
 ## 5.11.1
 
 ### Patch Changes
